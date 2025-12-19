@@ -1,0 +1,8 @@
+{
+  "name": "onchain-root",
+  "private": true,
+  "scripts": {
+    "build": "cd backend && npm ci && npm run build",
+    "start": "cd backend && npm run start"
+  }
+}
