@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useSearchParams } from "react-router-dom";
-import type { AnalyzeResponse, RangeKey } from "../../../../packages/shared/src/types";
+import type { AnalyzeResponse, RangeKey } from "../../src/types";
 import { fetchAnalyze } from "../lib/api";
 
 type ViewState =

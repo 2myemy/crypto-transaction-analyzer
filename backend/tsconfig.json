@@ -7,12 +7,13 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "declaration": true,
-    "emitDeclarationOnly": false,
-    "outDir": "dist",
-    "module": "ESNext",
     "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "verbatimModuleSyntax": false,
     "strict": true,
+    "skipLibCheck": true,
     "types": [],
     // For nodejs:
     // "lib": ["esnext"],
@@ -21,6 +22,7 @@
 
     // Other Outputs
     "sourceMap": true,
+    "declaration": true,
     "declarationMap": true,
 
     // Stricter Typechecking Options
@@ -37,11 +39,10 @@
 
     // Recommended Options
     "jsx": "react-jsx",
-    "verbatimModuleSyntax": true,
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
-    "skipLibCheck": true,
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["**/*.test.ts", "**/__tests__/**"]
 }

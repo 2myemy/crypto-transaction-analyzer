@@ -1,4 +1,4 @@
-import type { Direction } from "../../../../packages/shared/src/types";
+import type { Direction } from "../types";
 
 export function computeDirection(params: { address: string; from: string; to: string }): Direction {
   const a = params.address.toLowerCase();

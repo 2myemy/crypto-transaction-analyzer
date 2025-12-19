@@ -1,5 +1,5 @@
 import { Router } from "express";
-import type { AnalyzeResponse, RangeKey } from "../../../../packages/shared/src/types";
+import type { AnalyzeResponse, RangeKey } from "../types";
 
 const router = Router();
 

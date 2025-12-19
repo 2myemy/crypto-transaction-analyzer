@@ -1,5 +1,3 @@
-// shared/types.ts
-
 export type Chain = "eth";
 export type RangeKey = "7d" | "30d" | "90d";
 

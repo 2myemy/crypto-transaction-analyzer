@@ -1,4 +1,4 @@
-import type { AnalyzeResponse, RangeKey, Chain } from "../../../../packages/shared/src/types";
+import type { AnalyzeResponse, RangeKey, Chain } from "../types";
 
 const API_BASE = import.meta.env.VITE_API_BASE ?? ""; // ex) https://<heroku-app>.herokuapp.com
 

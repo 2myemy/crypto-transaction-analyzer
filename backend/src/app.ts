@@ -3,7 +3,7 @@ import cors from "cors";
 import analyzeRouter from "./routes/analyze";
 
 const app = express();
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 
 const allowed = [
   "http://localhost:5173",
