@@ -46,7 +46,7 @@ export default function Hero() {
               <div className="h-2.5 w-2.5 rounded-full bg-emerald-400 shadow-[0_0_20px_rgba(46,242,199,0.45)]" />
             </div>
             <span className="text-sm font-semibold tracking-tight">
-              Crypto Transaction Analyzer
+              onChain Analyzer
             </span>
           </div>
 
