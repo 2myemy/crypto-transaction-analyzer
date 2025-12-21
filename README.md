@@ -1,8 +1,8 @@
-## 📌 Crypto Transaction Analyzer
+## 📌 Onchain Analyzer
 
 ### Overview
 
-Crypto Transaction Analyzer is a full-stack web application that analyzes Ethereum wallet activity using on-chain data.
+Onchain Analyzer is a full-stack web application that analyzes Ethereum wallet activity using on-chain data.
 Users can input a wallet address and view transaction history, activity patterns, and behavioral insights through an interactive dashboard.
 
 This project focuses on bridging Web2 application development with Web3 blockchain data, emphasizing data normalization, usability, and transparency.
